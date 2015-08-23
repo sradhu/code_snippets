@@ -1,0 +1,9 @@
+FROM sradhu/ruby_postgres
+COPY download-from-github.sh /home/shananduser/
+
+
+-----------------
+download-from-github.sh
+-----------------
+curl -sL https://github.com/you/repo/archive/master.zip > /tmp/master.zip
+unzip /tmp/master.zip -d /opt
