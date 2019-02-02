@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Rob Hasselbaum <rob@hasselbaum.net>
+MAINTAINER sradhanand
 
 # Install Tomcat and create private CATALINA_BASE at '/tomcat' owned by the Tomcat user.
 # Although Ubuntu creates a "tomcat7" user, we create our own (called "tcuser") so that 
